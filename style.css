@@ -98,46 +98,44 @@ nav ul li a:hover::after,nav ul li a:focus::after{
 /* introtyping */
 @keyframes typing {
   
-    0%, 28% { content: ""; }
-    1%, 27% { content: "C"; }
-    2%, 26% { content: "CE"; }
-    3%, 25% { content: "CEO"; }
-    4%, 24% { content: "CEO "; }
-    5%, 23% { content: "CEO D"; }
-    6%, 22% { content: "CEO De"; }
-    7%, 21% { content: "CEO Dev"; }
-    9%, 20% { content: "CEO Devf"; }
-    10%, 19% { content: "CEO Devfo"; }
-    11%, 18% {content: "CEO Devfol";}
-    12%, 17% {content: "CEO Devfoli";}
-    13%, 16% {content: "CEO Devfolio";}
+    0%, 25% { content: ""; }
+    1%, 24% { content: "F"; }
+    2%, 23% { content: "Fr"; }
+    3%, 22% { content: "Fre"; }
+    4%, 21% { content: "Free"; }
+    5%, 20% { content: "Freel"; }
+    6%, 19% { content: "Freela"; }
+    7%, 18% { content: "Freelan"; }
+    9%, 17% { content: "Freelanc"; }
+    10%, 16% {content: "Freelance"; }
+    11%, 15% {content: "Freelancer"; }
   
-    30%, 46% { content: ""; }
-    31%, 45% { content: "E"; }
-    33%, 44% { content: "Ed"; }
-    34%, 43% { content: "Edi"; }
-    35%, 42% { content: "Edit"; }
-    36%, 41% { content: "Edito"; }
-    37%, 40% { content: "Editor"; }
+    28%, 43% { content: ""; }
+    29%, 42% { content: "E"; }
+    30%, 41% { content: "Ed"; }
+    31%, 40% { content: "Edi"; }
+    32%, 39% { content: "Edit"; }
+    33%, 38% { content: "Edito"; }
+    34%, 37% { content: "Editor"; }
 
-    48%, 84% { content: ""; }
-    49%, 83% { content: "F"; }
-    50%, 82% { content: "Fr"; }
-    51%, 81% { content: "Fro"; }
-    52%, 80% { content: "Fron"; }
-    53%, 79% { content: "Front"; }
-    54%, 78% { content: "Fronte"; }
-    55%, 77% { content: "Fronten"; }
-    56%, 76% { content: "Frontend"; }
-    57%, 75% { content: "Frontend "; }
-    58%, 74% { content: "Frontend D"; }
-    59%, 73% { content: "Frontend De"; }
-    60%, 72% { content: "Frontend Dev"; }
-    61%, 71% { content: "Frontend Devl"; }
-    62%, 70% { content: "Frontend Devlo"; }
-    63%, 69% { content: "Frontend Devlop"; }
-    64%, 68% { content: "Frontend Devlope"; }
-    65%, 67% { content: "Frontend Devloper"; }
+    46%, 83% { content: ""; }
+    47%, 82% { content: "F"; }
+    48%, 81% { content: "Fr"; }
+    49%, 80% { content: "Fro"; }
+    50%, 79% { content: "Fron"; }
+    51%, 78% { content: "Front"; }
+    52%, 77% { content: "Fronte"; }
+    53%, 76% { content: "Fronten"; }
+    54%, 75% { content: "Frontend"; }
+    55%, 74% { content: "Frontend "; }
+    56%, 73% { content: "Frontend D"; }
+    57%, 72% { content: "Frontend De"; }
+    58%, 71% { content: "Frontend Dev"; }
+    59%, 70% { content: "Frontend Devl"; }
+    60%, 69% { content: "Frontend Devlo"; }
+    61%, 68% { content: "Frontend Devlop"; }
+    62%, 67% { content: "Frontend Devlope"; }
+    63%, 66% { content: "Frontend Devloper"; }
     
     86%, 97% { content: ""; }
     86.5%, 96.5% { content: "C"; }
@@ -506,6 +504,53 @@ h5{
 .photo > div:hover{
     flex: 5;
 }
+/*certification section */
+
+.certification-gallery {
+    background-color: #101010; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .certification-gallery h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  
+
+  .certificate {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background: #191919; 
+    transition: transform 0.3s ease;
+  }
+  
+  .certificate img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .certificate img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  /* Caption Styling */
+  .certificate h3 {
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Light gray for text */
+  }
+  
 /* contact us */
 .contact-me{
     width: 100%; 
